@@ -13,6 +13,9 @@
 		619EBB42299D750C00B4621E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 619EBB40299D750C00B4621E /* Main.storyboard */; };
 		619EBB44299D750F00B4621E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 619EBB43299D750F00B4621E /* Assets.xcassets */; };
 		619EBB47299D750F00B4621E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 619EBB45299D750F00B4621E /* LaunchScreen.storyboard */; };
+		619EBB50299D754D00B4621E /* Ssi.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 619EBB4E299D754D00B4621E /* Ssi.xcframework */; };
+		619EBB53299D762600B4621E /* DIDTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619EBB52299D762600B4621E /* DIDTableViewCell.swift */; };
+		619EBB55299D763400B4621E /* WalletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619EBB54299D763400B4621E /* WalletViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		619EBB43299D750F00B4621E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		619EBB46299D750F00B4621E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		619EBB48299D750F00B4621E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		619EBB4E299D754D00B4621E /* Ssi.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Ssi.xcframework; path = ../Ssi.xcframework; sourceTree = "<group>"; };
+		619EBB52299D762600B4621E /* DIDTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DIDTableViewCell.swift; sourceTree = "<group>"; };
+		619EBB54299D763400B4621E /* WalletViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				619EBB50299D754D00B4621E /* Ssi.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +47,7 @@
 		619EBB2E299D750C00B4621E = {
 			isa = PBXGroup;
 			children = (
+				619EBB4E299D754D00B4621E /* Ssi.xcframework */,
 				619EBB39299D750C00B4621E /* Identity-Wallet */,
 				619EBB38299D750C00B4621E /* Products */,
 			);
@@ -56,7 +64,9 @@
 		619EBB39299D750C00B4621E /* Identity-Wallet */ = {
 			isa = PBXGroup;
 			children = (
+				619EBB52299D762600B4621E /* DIDTableViewCell.swift */,
 				619EBB3A299D750C00B4621E /* AppDelegate.swift */,
+				619EBB54299D763400B4621E /* WalletViewController.swift */,
 				619EBB3C299D750C00B4621E /* SceneDelegate.swift */,
 				619EBB3E299D750C00B4621E /* ViewController.swift */,
 				619EBB40299D750C00B4621E /* Main.storyboard */,
@@ -139,8 +149,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				619EBB3F299D750C00B4621E /* ViewController.swift in Sources */,
+				619EBB53299D762600B4621E /* DIDTableViewCell.swift in Sources */,
 				619EBB3B299D750C00B4621E /* AppDelegate.swift in Sources */,
 				619EBB3D299D750C00B4621E /* SceneDelegate.swift in Sources */,
+				619EBB55299D763400B4621E /* WalletViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
